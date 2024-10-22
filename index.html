@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de Adivinanza</title>
+</head>
+<body>
+    <form id="miFormulario">
+        <label for="input">Ingresa un número entre 1 y 100:</label>
+        <input type="number" id="input" name="numero" min="1" max="100" required>
+        <button type="button" id="guardarBtn">Adivinar</button>
+        <button type="button" id="reiniciarBtn">Reiniciar Juego</button>
+    </form>
+
+    <p id="resultado"></p>
+    <p id="intentos">Intentos: 0</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
